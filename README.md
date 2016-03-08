@@ -2,9 +2,13 @@
 
 *For more C sample code, see [www.MicrochipC.com](http://www.MicrochipC.com/).*
 
-This shows how to get a serial port up and running for a PIC16F876 and a PIC18F252 or PIC18F452.
+## Abstract
 
-> Do you have examples for other microcontrollers? All pull requests will be honored!
+Shows how to get a serial port up and running for a PIC16F876, PIC18F252 or PIC18F452.
+
+Includes full schematics, PCB, component list, C code and lots of instructions.
+
+> Do you have examples for other microcontrollers to share with the community? We honour 95% of pull requests within a few days!
 
 # PIC16F876
 
@@ -95,3 +99,5 @@ What you need:
 ## More C Sample Code
 
 For more sample code, see [www.MicrochipC.com](http://www.MicrochipC.com/).
+
+> Do you have any enhancements to share with the community? We honour 95% of pull requests within a few days!

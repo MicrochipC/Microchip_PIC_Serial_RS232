@@ -1,0 +1,15 @@
+PIC serial port tester
+
+01 works
+
+02 tidied up
+
+03 tidied up more
+
+04
+
+Added serial_advanced.c
+
+05
+
+Adapted for PIC18F series

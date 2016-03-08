@@ -1,0 +1,31 @@
+See _readme.txt for a quick start.
+
+This troubleshooting guide is taken from www.workingtex.com/htpic, under FAQ.
+
+1   Do you have Hyperterminal set to the correct speed (ie: 19200bps) and COM
+    port (ie: COM1), "N,8,1" with no flow control?
+
+2.  Get an oscilloscope, and put it in pin 3 of the serial port.  Type some
+    characters, and you should see it coming up on the oscilloscope.
+
+3.  Connect pins 2 and 3 on the serial cable.  This makes a loopback.  Everything
+    you type in Hyperterm will be echoed back.
+
+4.  The PIC sends out 5V logic levels.  The serial line operates with –13V/+13V
+    logic levels.  Some sort of interface is needed, usually using a MAX232, MAX3222
+    or SIPEX232 chip.  Look up the datasheet and check that you have got it right. 
+    Check the capacitor values.  The capacitors need to be a minimum size, anything
+    above this will do.  33uF electrolytic caps are fine, if a bit of an overkill.
+
+5.  Make sure that the order of the lines into the MAX232 chip is correct, as above.
+
+6.  Check it from the micro side of things.  Run the program, downloaded above, and
+    verify that 5V logic levels are coming out of the transmit (TX) pin.
+
+7.  Check that the crystal speed matches the value used to calculate SPBRG and
+    BRGH.  If you are using the ICEPIC 2000, check that the crystal speed, set in
+    the menu options, matches the ones used to calculate SPBRG and BRGH.  Send out
+    0xAA, which is 10101010 in binary.  Using the oscilloscope, measure the time
+    between the pulses and verify that they match the baud rate.
+
+7.  If all else fails, change computer and try it on another.

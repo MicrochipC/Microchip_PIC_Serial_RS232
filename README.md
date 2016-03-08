@@ -8,7 +8,7 @@ Shows how to get a serial port up and running for a PIC16F876, PIC18F252 or PIC1
 
 Includes full schematics, PCB, component list, C code and lots of instructions.
 
-> Do you have examples for other microcontrollers to share with the community? We honour 95% of pull requests within a few days!
+> Do you have examples for other microcontrollers to share with the community? We honour 98% of GIT pull requests within a few days!
 
 # PIC16F876
 

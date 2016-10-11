@@ -17,7 +17,7 @@ Overall goal: 	serial comms using USART to comm port of an ibm pc compatible com
 #include <pic18.h>
 #include <conio.h>
 #include <stdio.h>
-#include "always.h
+#include "always.h"
 #include "clk_freq.h"
 
 void serial_setup(void)
